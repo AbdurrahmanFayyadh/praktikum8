@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    float: left;
+    background-color: pink;
+    height: 100vh;
+    width: 20%;
+}
+
+.header {
+    background-color: goldenrod;
+    height: 20vh;
+}
+
+.main {
+    display: flex;
+    height: 60vh;
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+    background-color: aqua;
+    width: 30%;
+}
+
+.footer {
+    background-color: goldenrod;
+    height: 20vh;
+}

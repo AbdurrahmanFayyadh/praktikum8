@@ -1,0 +1,47 @@
+body {
+    background-color: pink;
+    margin: 4vh;
+    color: white;
+}
+
+header {
+    background-color: lightblue;
+    padding: 2vh;
+}
+
+#main {
+    display: flex;
+    position: relative;
+    top: 4vh;
+}
+
+aside {
+    background-color: lightseagreen;
+    width: 30%;
+    margin-right: 4vh;
+}
+
+article {
+    background-color: palevioletred;
+    width: 68%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+article, aside {
+    height: 72vh;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 2vh;
+    position: relative;
+    top: 8vh;
+}
+
+img {
+    width: 11rem;
+    height: 10rem;
+    margin: 1em;
+}

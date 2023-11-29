@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header, footer {
+    background-color: bisque;
+    height: 20vh;
+}
+
+#main {
+    display: flex;
+}
+
+#main aside, #main nav {
+    height: 60vh;
+    flex: 0 0 20vw;
+}
+
+#main aside {
+   background-color: pink;
+}
+
+#main nav {
+    background-color: aqua;
+}
+
+#main article {
+    flex: 1;
+}
